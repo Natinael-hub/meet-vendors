@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meet‑Vendors — Admin (Preview)</title>
+  <meta name="description" content="Find trusted vendors — electricians, plumbers, painters, IT services — in minutes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>html,body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}</style>
+
+</head>
+<body class="bg-white text-gray-900">
+  <header class="border-b bg-black text-white">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-xl bg-white"></div>
+        <span class="font-extrabold">Meet‑Vendors</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="vendors.html" class="hover:underline">Find Vendors</a>
+        <a href="join.html" class="hover:underline">Join as Vendor</a>
+        <a href="pricing.html" class="hover:underline">Pricing</a>
+        <a href="dashboard-vendor.html" class="hover:underline">Vendor Dashboard</a>
+        <a href="dashboard-company.html" class="hover:underline">Company Dashboard</a>
+        <a href="admin.html" class="hover:underline">Admin</a>
+      </nav>
+    </div>
+  </header>
+  
+<main class="max-w-7xl mx-auto px-6 py-10 space-y-6">
+  <h1 class="text-3xl font-bold">Admin</h1>
+  <section class="grid md:grid-cols-3 gap-6">
+    <div class="p-4 border rounded-2xl bg-white shadow">
+      <h3 class="font-semibold">Vendors Awaiting Approval</h3>
+      <ul class="mt-2 space-y-2 text-sm">
+        <li class="p-3 border rounded flex justify-between"><span>GreenBrush Painters</span><span><a href="vendor-profile.html" class="underline">View</a></span></li>
+      </ul>
+    </div>
+    <div class="p-4 border rounded-2xl bg-white shadow">
+      <h3 class="font-semibold">Reviews Moderation</h3>
+      <ul class="mt-2 space-y-2 text-sm">
+        <li class="p-3 border rounded">“Great job!” — <span class="text-gray-500">BrightSpark</span></li>
+      </ul>
+    </div>
+    <div class="p-4 border rounded-2xl bg-white shadow">
+      <h3 class="font-semibold">Diagnostics</h3>
+      <ul class="mt-2 space-y-2 text-sm">
+        <li>DB connected (preview)</li>
+        <li>Stripe test keys found</li>
+        <li>Storage bucket: vendor-media-preview</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+  <footer class="border-t bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 py-8 text-sm text-gray-600 flex flex-col md:flex-row gap-4 justify-between">
+      <p>© 2025 Meet‑Vendors. Static preview.</p>
+      <div class="flex gap-4">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="vendors.html" class="hover:underline">Vendors</a>
+        <a href="join.html" class="hover:underline">Join</a>
+        <a href="pricing.html" class="hover:underline">Pricing</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

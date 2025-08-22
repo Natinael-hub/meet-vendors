@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meet‑Vendors — Vendor Dashboard (Preview)</title>
+  <meta name="description" content="Find trusted vendors — electricians, plumbers, painters, IT services — in minutes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>html,body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}</style>
+
+</head>
+<body class="bg-white text-gray-900">
+  <header class="border-b bg-black text-white">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-xl bg-white"></div>
+        <span class="font-extrabold">Meet‑Vendors</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="vendors.html" class="hover:underline">Find Vendors</a>
+        <a href="join.html" class="hover:underline">Join as Vendor</a>
+        <a href="pricing.html" class="hover:underline">Pricing</a>
+        <a href="dashboard-vendor.html" class="hover:underline">Vendor Dashboard</a>
+        <a href="dashboard-company.html" class="hover:underline">Company Dashboard</a>
+        <a href="admin.html" class="hover:underline">Admin</a>
+      </nav>
+    </div>
+  </header>
+  
+<main class="max-w-6xl mx-auto px-6 py-10 space-y-6">
+  <h1 class="text-3xl font-bold">Vendor Dashboard</h1>
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="p-4 border rounded-2xl bg-white shadow">
+      <h3 class="font-semibold">Listing Status</h3>
+      <p class="text-sm text-gray-700 mt-1">Not listed (completeness 75%)</p>
+      <p class="text-xs text-red-600">Missing: Contact Email</p>
+      <a href="dashboard-vendor.html" class="mt-3 inline-block px-3 py-1 bg-black text-white rounded">List My Profile</a>
+    </div>
+    <div class="p-4 border rounded-2xl bg-white shadow">
+      <h3 class="font-semibold">Profile Completeness</h3>
+      <div class="w-full h-3 bg-gray-100 rounded mt-2"><div class="h-3 bg-black rounded" style="width:75%"></div></div>
+      <a href="join.html" class="text-sm underline mt-2 inline-block">Edit Profile</a>
+    </div>
+    <div class="p-4 border rounded-2xl bg-white shadow">
+      <h3 class="font-semibold">Subscription</h3>
+      <p class="text-sm text-gray-700 mt-1">Vendor — Active (Preview)</p>
+      <a href="pricing.html" class="text-sm underline mt-2 inline-block">Manage</a>
+    </div>
+  </div>
+  <section class="grid md:grid-cols-2 gap-6">
+    <div class="p-4 border rounded-2xl bg-white shadow">
+      <h3 class="font-semibold">Leads Inbox</h3>
+      <ul class="mt-2 space-y-2 text-sm">
+        <li class="p-3 border rounded">ACME Co — Need EV charger install — <a class="underline" href="vendor-profile.html">view</a></li>
+        <li class="p-3 border rounded">BuildRight LLC — Lighting upgrade — <a class="underline" href="vendor-profile.html">view</a></li>
+      </ul>
+    </div>
+    <div class="p-4 border rounded-2xl bg-white shadow">
+      <h3 class="font-semibold">Analytics (Last 30 days)</h3>
+      <ul class="mt-2 space-y-1 text-sm">
+        <li>Profile views: 124</li><li>Contact clicks: 37</li><li>Leads: 12</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+  <footer class="border-t bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 py-8 text-sm text-gray-600 flex flex-col md:flex-row gap-4 justify-between">
+      <p>© 2025 Meet‑Vendors. Static preview.</p>
+      <div class="flex gap-4">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="vendors.html" class="hover:underline">Vendors</a>
+        <a href="join.html" class="hover:underline">Join</a>
+        <a href="pricing.html" class="hover:underline">Pricing</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

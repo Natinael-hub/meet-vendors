@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meet‑Vendors — Vendors</title>
+  <meta name="description" content="Find trusted vendors — electricians, plumbers, painters, IT services — in minutes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>html,body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}</style>
+
+</head>
+<body class="bg-white text-gray-900">
+  <header class="border-b bg-black text-white">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-xl bg-white"></div>
+        <span class="font-extrabold">Meet‑Vendors</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="vendors.html" class="hover:underline">Find Vendors</a>
+        <a href="join.html" class="hover:underline">Join as Vendor</a>
+        <a href="pricing.html" class="hover:underline">Pricing</a>
+        <a href="dashboard-vendor.html" class="hover:underline">Vendor Dashboard</a>
+        <a href="dashboard-company.html" class="hover:underline">Company Dashboard</a>
+        <a href="admin.html" class="hover:underline">Admin</a>
+      </nav>
+    </div>
+  </header>
+  
+<main class="max-w-7xl mx-auto px-6 py-10 space-y-6">
+  <h1 class="text-3xl font-bold">Find Vendors</h1>
+  <div class="grid md:grid-cols-4 gap-3 items-end">
+    <input class="border rounded px-3 py-2" placeholder="Search (e.g., electrician)" />
+    <select class="border rounded px-3 py-2">
+      <option>All categories</option><option>Electrician</option><option>Plumber</option><option>Painter</option><option>IT Services</option>
+    </select>
+    <input class="border rounded px-3 py-2" placeholder="City" />
+    <select class="border rounded px-3 py-2">
+      <option>Any rating</option><option>5+</option><option>4+</option><option>3+</option>
+    </select>
+  </div>
+  <div class="flex justify-end">
+    <a href="vendors.html" class="px-4 py-2 bg-black text-white rounded">Apply</a>
+  </div>
+  <section class="grid md:grid-cols-2 gap-6">
+    <div class="p-5 border rounded-2xl bg-white shadow">
+      <div class="flex items-center justify-between">
+        <h3 class="text-lg font-semibold">BrightSpark Electric</h3>
+        <span>⭐ 4.8</span>
+      </div>
+      <p class="text-sm text-gray-600 mt-1">Region: VA — City: Arlington</p>
+      <p class="text-sm text-gray-700 mt-2">Residential and commercial electricians with 10+ yrs experience.</p>
+      <div class="mt-4 flex gap-2">
+        <a href="vendor-profile.html" class="px-3 py-1 border rounded">View Profile</a>
+        <a href="dashboard-company.html" class="px-3 py-1 border rounded">Contact</a>
+      </div>
+    </div>
+    <div class="p-5 border rounded-2xl bg-white shadow">
+      <div class="flex items-center justify-between">
+        <h3 class="text-lg font-semibold">PipePro Plumbing</h3>
+        <span>⭐ 4.6</span>
+      </div>
+      <p class="text-sm text-gray-600 mt-1">Region: MD — City: Bethesda</p>
+      <p class="text-sm text-gray-700 mt-2">Emergency, residential, and remodel plumbing specialists.</p>
+      <div class="mt-4 flex gap-2">
+        <a href="vendor-profile.html" class="px-3 py-1 border rounded">View Profile</a>
+        <a href="dashboard-company.html" class="px-3 py-1 border rounded">Contact</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer class="border-t bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 py-8 text-sm text-gray-600 flex flex-col md:flex-row gap-4 justify-between">
+      <p>© 2025 Meet‑Vendors. Static preview.</p>
+      <div class="flex gap-4">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="vendors.html" class="hover:underline">Vendors</a>
+        <a href="join.html" class="hover:underline">Join</a>
+        <a href="pricing.html" class="hover:underline">Pricing</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
